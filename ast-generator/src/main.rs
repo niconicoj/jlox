@@ -50,7 +50,6 @@ fn parse_source(source_path: String) -> GenResult<HashMap<String, Vec<String>>> 
 
     let config = serde_json::from_reader(reader)?;
 
-    println!("{:?}", config);
     Ok(config)
 }
 
