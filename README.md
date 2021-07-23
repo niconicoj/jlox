@@ -1,14 +1,18 @@
-## Getting Started
+## JLox : Lox interpreter
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is where I keep the Lox interpreter I am building following the https://craftinginterpreters.com/ book. This is the java version (as you might have seen).
 
-## Folder Structure
+## How to use
 
-The workspace contains two folders by default, where:
+You can compile the project by running :
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+```
+make build
+```
 
-## Dependency Management
+you will need a jdk for that.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+You can then run the interpeter with a command like :
+```
+java -cp bin/ Lox
+```
